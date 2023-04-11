@@ -1,1 +1,9 @@
+Predicting Likelyhood of e-signing loan based on financial history
 
+Business Challenge
+We were working for a fintech company that specializes on loans. It offers low APR loans to applicants based on their financial habits, as almost all lending companies do. This company has partnered with a P2P lending marketplace theat provides real_time leads (loan applicants). The number of conversions from these leads are satisfactory. 
+The company tasks us with creating a model that predicts whether or not these leads will complete the electronic signature phase of the loan application. The company seeks to leverage this model to identify less 'quality' applicatns(e.g. those who are not responding to the onboarding process), and experiment with giving them different onboarding screens.
+
+Data
+Because the applicants arrived through a marketplace, we have access to their financial data before the onboarding process begins. This data includes personal information like age, and time employed, as well as other financial metrics. Our company utilizes these financial data points to create risk scores based on many different risk factors.
+We were given the set of scores from algorithms built by the finance and engineering teams. Furthermore, the marketplace itself provides us with their own lead quality scores. We leveraged both sets of scores, as well as list of personal/financial features to predict if the user is likely to respond to our current onboarding process.
